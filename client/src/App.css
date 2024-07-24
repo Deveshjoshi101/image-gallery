@@ -1,0 +1,25 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

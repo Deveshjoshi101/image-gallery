@@ -1,0 +1,17 @@
+{
+  "name": "image-gallery",
+  "version": "1.0.0",
+  "description": "Upload images and preview with crud operation",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd ./api && node server.js",
+    "client": "cd ./client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
